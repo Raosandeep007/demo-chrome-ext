@@ -1,0 +1,19 @@
+{
+  "name": "My demo extension",
+  "description": "A-Demo-extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["activeTab", "scripting", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "./image/devsense.png",
+    "32": "./image/devsense.png",
+    "48": "./image/devsense.png"
+  }
+}
